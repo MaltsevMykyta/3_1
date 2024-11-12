@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="assets/Pokemon_logo.png" alt="Pokemon Logo" class="logo">
+        
+        <div class="battlefield">
+            <!-- Pokemon 1: Pikachu -->
+            <div class="pokemon" id="pokemon1">
+                <h3>Pikachu</h3>
+                <img src="https://avatanplus.com/files/resources/original/566f66bd93c2b151a32954a5.png" alt="Pikachu" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health1" style="width: 100%;"></div>
+                </div>
+                <button id="attack1">Attack</button>
+                <button id="special1">Special Attack</button>
+            </div>
+
+            <!-- Pokemon 2: Charmander -->
+            <div class="pokemon" id="pokemon2">
+                <h3>Charmander</h3>
+                <img src="https://static.wikia.nocookie.net/nintendo/images/f/fb/Charmeleon.png/revision/latest/thumbnail/width/360/height/360?cb=20210812181602&path-prefix=en" alt="Charmander" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health2" style="width: 100%;"></div>
+                </div>
+                <button id="attack2">Attack</button>
+                <button id="special2">Special Attack</button>
+            </div>
+
+            <!-- Pokeball for animation -->
+            <img id="pokeball" src="https://imgpng.ru/d/pokeball_PNG2.png" alt="Pokeball" class="pokeball">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
